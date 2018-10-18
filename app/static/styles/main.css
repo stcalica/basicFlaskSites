@@ -1,5 +1,7 @@
 html,body {
   width: 100%;
+  background-color: black;
+  color: white;
 }
 
 #heading {
@@ -15,6 +17,96 @@ html,body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+
+#footer {
+
+  margin-bottom: auto;
+
+}
+
+.twitter-timeline {
+
+  height:auto;
+  width:50%;
+
+}
+
+.social-media-bar {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+
+}
+.social-icon {
+
+  display: flex;
+  margin: 1em;
+
+}
+
+.event-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+
+
+}
+
+.flyer {
+
+  width: 100%;
+  height: auto;
+  margin: 1em;
+
+}
+
+.event-button-container {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1em;
+
+}
+
+.event-button {
+
+  margin: 1em;
+
+}
+
+.profile-wrapper {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+
+}
+
+.profile {
+
+  border-radius: 35px;
+
+}
+
+
+.pic {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.nameplate {
+
+  text-align: center;
 
 }
 
