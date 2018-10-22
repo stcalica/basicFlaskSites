@@ -1,4 +1,4 @@
 {
-  "company": "example",
-  "brand_image_url": "http://www.codeisdead.com/img/profile/Kyle.jpg"
+  "company": "California Dreamin' Hostels",
+  "brand_image_url": "./static/images/hostel.jpg"
 }

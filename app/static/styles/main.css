@@ -18,6 +18,24 @@ html,body {
 
 }
 
+.image {
+
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lead {
+  margin: 20px;
+}
+
 /* Phone Devices */
 @media all and (min-width: 320px) and (max-width: 480px) {
 
