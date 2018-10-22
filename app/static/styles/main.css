@@ -10,13 +10,21 @@ html,body {
 
 }
 
-#content {
+#content-wrapper {
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
+#content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+}
+
 
 /* Phone Devices */
 @media all and (min-width: 320px) and (max-width: 480px) {

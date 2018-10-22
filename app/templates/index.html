@@ -1,29 +1,10 @@
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ company }}</title>
-    <meta >
-    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
-  </head>
-  <body>
-    <div id="site-wrapper">
-      <div id="heading">
-        <div class="brand-head">
-          <h1><img src="{{ brand_image_url }}" alt="brand image" /></h1>
-        </div>
-        <nav>
-          <ul class="nav-container" role="navigation">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Team</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="content">
-        <h2 class="main-heading">Some Random Heading</h2>
-        <p class="lead">Some Random Content</p>
-      </div>
-    </div>
-    </div>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+
+<span class="article">
+  <h2 class="main-heading">Take In The Scene</h2>
+  <p class="lead">Me casa es su casa. California Dreamin’ Hostel is the city hotel to stay at while you enjoy your trip in Guadalajara, the second largest city in Mexico. Be close to the tours of Guadalajara Cathedral and celebrate authentic Mexican traditions. A top tourism city in the heart of Mexico, visitors from all over the world come to the capital of Jalisco - home of Tequila and Chivas futbol team. Take a tequila tour - start with a good Blanco and end with a fine aged Anos. Enjoy a cultural celebration in the Guadalajara Cathedral courtyard. Every journey has a beginning and a destination, let California Dreamin’ be either one or a nice stop along the way. </p>
+</span>
+
+{% endblock %}

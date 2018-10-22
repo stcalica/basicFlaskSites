@@ -1,15 +1,10 @@
 ### Website for California Dreamin Hostel
 
 
-Website will use a rest api to a call assets rather than storing assets 
+Website will use a rest api to a call assets rather than storing assets
 
-Website will use flask, react, bootstrap to display 
+Website will use flask, react, bootstrap to display
 
-Website will be relatively stack with buttons to hostelworld and Airbnb in the corner
+We will first start out with just a company file for each website
 
-Color Schemes: 
-
-
-Layout: 
-
-
+Then next we will create Directus for each website to replace having to handcode a ton of specific data

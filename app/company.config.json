@@ -1,4 +1,21 @@
 {
   "company": "example",
-  "brand_image_url": "http://www.codeisdead.com/img/profile/Kyle.jpg"
+  "brand_image_url": "https://imgur.com/6zN8P2d.png",
+  "contact":{
+    "phone-number": "925-250-8792",
+    "address": "some thing",
+    "email": "some@company.com",
+    "social_media": {
+      "twitter": "@somehandle",
+      "instagram": "@somehandle",
+      "soundcloud": "@somehandle"
+    }
+  },
+  "team": {
+    "Kyle": {
+      "profile_picture": "",
+      "role": "technical",
+      "about_me": ""
+    }
+  }
 }
