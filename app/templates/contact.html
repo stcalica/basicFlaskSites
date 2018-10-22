@@ -12,12 +12,12 @@
     <div id="site-wrapper">
       <div id="heading">
         <div class="brand-head">
-          <img  src="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}" alt="California Dreamin' Hostels" />
+          <img class="brand-image" src="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}" alt="California Dreamin' Hostels" />
         </div>
         <nav>
           <ul class="nav-container" role="navigation">
             <li class="nav-item"><a href="/">Home</a></li>
-            <li class="nav-item"><a href="/about">Why Stay With Us</a></li>
+            <li class="nav-item"><a href="/about">About</a></li>
             <li class="nav-item"><a href="/contact">Reservations</a></li>
           </ul>
         </nav>
@@ -27,10 +27,14 @@
         <p class="lead">Book a reservation for your stay in Mexico's second largest city, Guadalajara at California Dreamin’ Hostel. Enjoy the wonders of the Mexican state Jalisco. The birthplace of Tequila and a top cultural destination. Create a memorable stamp in any traveler’s passport. You don’t want to miss this on your journey. Me casa, su casa!<p>
         <p class="lead">We have two private rooms and a total of 15 beds. We have two on site shower facilities and a laundromat next door. An onsite cafe and bar with flat screen TVs and high speed internet.</p>
         <div class="image-container">
+          <figure>
           <image class="image" src="{{ url_for('static',filename='img/Twin_Bed_Reservations.jpg') }}" alt="reserve twin beds"/>
           <image class="image" src="{{ url_for('static',filename='img/Private_Room_Reservation.jpg') }}" alt="reserve private room"/>
+          <figcaption> Reserve one of our fabolous rooms </figcaption>
+        </figure>
        </div>
         <p class="lead">Book with Airbnb or Hostelworld. Manage your reservation easily from your mobile device. Staff will be present on site to deal with any issues that may come up.</p>
+        <button class="reserve-btn"><a href="#">Book with Airbnb</a></button>
       </div>
     </div>
     </div>

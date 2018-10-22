@@ -12,12 +12,12 @@
     <div id="site-wrapper">
       <div id="heading">
         <div class="brand-head">
-          <img  src="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}" alt="California Dreamin' Hostels" />
+          <img class="brand-image" src="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}" alt="California Dreamin' Hostels" />
         </div>
         <nav>
           <ul class="nav-container" role="navigation">
             <li class="nav-item"><a href="/">Home</a></li>
-            <li class="nav-item"><a href="/about">Why Stay With Us</a></li>
+            <li class="nav-item"><a href="/about">About</a></li>
             <li class="nav-item"><a href="/contact">Reservations</a></li>
           </ul>
         </nav>
@@ -25,6 +25,11 @@
       <div id="content">
         <h2 class="main-heading"> What Makes Us Special</h2>
         <p class="lead">California Dreamin’ Hostel is a city hostel started and managed by fellow travelers. As globetrotters and cultural vacation junkies, we understand the needs and wants a youth hostel should provide. Come along with us as we are the ultimate travel guides. Want to drink? Follow us on a bar crawl. Want to see cultural icons? Take a walking tour of the city with us. Want some authentic mexican food? Join us on one of our hosted dinners curated by a local chef. We know what any visitor would love to see and we ourselves have a deep understanding need of feeding the hunger to explore. We truly are a place for travelers, made by travel enthusiasts.</p>
+        <figure>
+        <image class="image" src="{{ url_for('static',filename='img/travelers_in_mexico.png') }}" alt="Travelers in Mexico"/>
+        <image class="image" src="{{ url_for('static',filename='img/backpackers_in_mexico.jpg') }}" alt="Backpackers in Mexico"/>
+        <figcaption> We're travelers just like you! </figcaption>
+      </figure>
       </div>
     </div>
     </div>
