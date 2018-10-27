@@ -1,10 +1,11 @@
 from flask import Flask
 import json
 import os
-files = os.listdir(".")
-print files
+from flask_minify import minify
+
 
 app = Flask(__name__, static_folder='static', static_url_path='')
+minify(app=app)
 
 with open("app/company.config.json", "r") as f:
 	    config = json.load(f)
