@@ -17,4 +17,4 @@ def about():
 
 @app.route('/sitemap.xml')
 def sitemap():
-	return send_from_directory("./", 'sitemap.xml')
+	return send_from_directory('./', 'sitemap.xml')
