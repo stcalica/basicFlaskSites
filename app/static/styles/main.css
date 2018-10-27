@@ -1,5 +1,7 @@
 html,body {
   width: 100%;
+  box-sizing: border-box;
+
 }
 
 #heading {
@@ -65,7 +67,7 @@ html,body {
   }
 
   .nav-item {
-
+    box-sizing: border-box;
     padding: 2em;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -89,7 +91,7 @@ html,body {
 /* High Res Desktops */
 @media all and (min-width: 1281px) {
   .brand-head {
-
+    box-sizing: border-box;
     padding: 1em;
 
   }
@@ -105,7 +107,7 @@ html,body {
   }
 
   .nav-item {
-
+    box-sizing: border-box;
     padding: 2em;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -130,6 +132,7 @@ html,body {
 @media all and (min-width: 1025px) and (max-width: 1280px) {
 
   .brand-head {
+    box-sizing: border-box;
 
     padding: 1em;
 
@@ -146,6 +149,7 @@ html,body {
   }
 
   .nav-item {
+    box-sizing: border-box;
 
     padding: 2em;
     flex-direction: row;

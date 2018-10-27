@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template
+from flask import render_template, send_from_directory
 
 #read a config file from the server to display each company specifics
 
@@ -14,3 +14,7 @@ def contact():
 @app.route('/about')
 def about():
 	return render_template("about.html", company=app.config.company, brand_image_url=app.config.brand_image_url)
+
+@app.route('/sitemap.xml')
+def sitemap():
+	return send_from_directory("./", 'sitemap.xml')
