@@ -1,38 +1,60 @@
+
 <!Doctype html>
 <html  lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="California Dreamin Hostel is a traveler’s youth hostel made by travelers. We understand the needs and wants for every reservation and of every  traveler. We can provide an authentic Mexican experience at your stay in Guadalajara, Mexico. Find out more about what makes us special">
-    <meta name="keywords" content=" mexico, jalisco, guadalajara, tequila, hostel, travel, tourism, passport, tours of, authentic mexican, airbnb, hostelworld, su casa, youth hostel, travel guide, destination, book, reservation, journey, traveler, cultural vacation">
-    <meta name="author" content="Kyle Calica">
-    <link rel="icon" href="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}">
-    <title>Made by Travelers</title>
-    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
-  </head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="California Dreamin Hostel is a traveler’s youth hostel made by travelers. We understand the needs and wants for every reservation and of every  traveler. We can provide an authentic Mexican experience at your stay in Guadalajara, Mexico. Find out more about what makes us special">
+  <meta name="keywords" content=" mexico, jalisco, guadalajara, tequila, hostel, travel, tourism, passport, tours of, authentic mexican, airbnb, hostelworld, su casa, youth hostel, travel guide, destination, book, reservation, journey, traveler, cultural vacation">
+  <meta name="author" content="Kyle Calica">
+  <link rel="icon" href="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}">
+  <title>Made by Travelers</title>
+  <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+</head>
   <body>
-    <div id="site-wrapper">
-      <div id="heading">
-        <div class="brand-head">
-          <img class="brand-image" src="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}" alt="California Dreamin' Hostels" />
-        </div>
+      <header>
         <nav>
+          <span class="nav-item brand-image"><img class="brand-image" src="{{  url_for('static',filename='img/Guadalajara_Cathedral_icon.png') }}" alt="California Dreamin' Hostels" /></span>
+            <ul class="reserve-section">
+              <li class="reserve-now-btn"><a href="#"><img class="reserve-btn" src="{{ url_for('static',filename='icons/hostelworld.svg') }}" alt="hostelworld-icon" /></a></li>
+              <li class="reserve-now-btn"><a href="#"><img class="reserve-btn" src="{{ url_for('static',filename='icons/airbnb.svg') }}" alt="airbnb-icon"/></a></li>
+            </ul>
           <ul class="nav-container" role="navigation">
             <li class="nav-item"><a href="/">Home</a></li>
             <li class="nav-item"><a href="/about">About</a></li>
             <li class="nav-item"><a href="/contact">Reservations</a></li>
           </ul>
-        </nav>
-      </div>
-      <div id="content">
-        <h2 class="main-heading"> What Makes Us Special</h2>
-        <p class="lead">California Dreamin’ Hostel is a city hostel started and managed by fellow travelers. As globetrotters and cultural vacation junkies, we understand the needs and wants a youth hostel should provide. Come along with us as we are the ultimate travel guides. Want to drink? Follow us on a bar crawl. Want to see cultural icons? Take a walking tour of the city with us. Want some authentic mexican food? Join us on one of our hosted dinners curated by a local chef. We know what any visitor would love to see and we ourselves have a deep understanding need of feeding the hunger to explore. We truly are a place for travelers, made by travel enthusiasts.</p>
-        <figure>
-        <image class="image" src="{{ url_for('static',filename='img/travelers_in_mexico.png') }}" alt="Travelers in Mexico"/>
-        <image class="image" src="{{ url_for('static',filename='img/backpackers_in_mexico.jpg') }}" alt="Backpackers in Mexico"/>
-        <figcaption> We're travelers just like you! </figcaption>
-      </figure>
-      </div>
-    </div>
-    </div>
+      </nav>
+      </header>
+      <main>
+      <section id="content">
+            <article>
+              <header>
+                <h2 class="main-heading">What Makes Us Special</h2>
+              </header>
+              <span class="lead">
+                <p class="lead">California Dreamin’ Hostel is a city hostel started and managed by fellow travelers. As globetrotters and cultural vacation junkies, we understand the needs and wants a youth hostel should provide. Come along with us as we are the ultimate travel guides. Want to drink? Follow us on a bar crawl. Want to see cultural icons? Take a walking tour of the city with us. Want some authentic mexican food? Join us on one of our hosted dinners curated by a local chef. We know what any visitor would love to see and we ourselves have a deep understanding need of feeding the hunger to explore. We truly are a place for travelers, made by travel enthusiasts.
+                </p>
+              </span>
+
+              <section id="gallery">
+                <figure>
+                <image class="image" src="{{ url_for('static',filename='img/travelers_in_mexico.png') }}" alt="Travelers in Mexico"/>
+                <image class="image" src="{{ url_for('static',filename='img/backpackers_in_mexico.jpg') }}" alt="Backpackers in Mexico"/>
+                <figcaption> We're travelers just like you! </figcaption>
+              </figure>
+              </section>
+            </article>
+      </section>
+      <aside>
+        <ul id="social-media-aside">
+          <li><img class="social-media-icon" src="{{ url_for('static',filename='icons/facebook.png') }}" alt="facebook-icon"/></li>
+          <li><img class="social-media-icon" src="{{ url_for('static',filename='icons/instagram.png') }}" alt="instagram-icon"/></li>
+          <li><img class="social-media-icon" src="{{ url_for('static',filename='icons/yelp.png') }}" alt="yelp-icon"/></li>
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <span><p>Footer</p></span>
+    </footer>
   </body>
 </html>
