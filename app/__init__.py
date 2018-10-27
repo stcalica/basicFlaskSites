@@ -4,7 +4,7 @@ import os
 files = os.listdir(".")
 print files
 
-app = Flask(__name__, static_folder='static')
+app = Flask(__name__, static_folder='static', static_url_path='')
 
 with open("app/company.config.json", "r") as f:
 	    config = json.load(f)
