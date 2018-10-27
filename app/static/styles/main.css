@@ -22,6 +22,12 @@ footer {
   margin:auto;
 }
 
+.call-to-action {
+  width: 100%;
+  height: auto;
+  margin:0;
+}
+
 .footer{
    text-align: center;
 }
