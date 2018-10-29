@@ -2,7 +2,7 @@
 <!Doctype html>
 <html  lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
   <meta name="description" content="California Dreamin Hostel is a traveler’s youth hostel made by travelers. We understand the needs and wants for every reservation and of every  traveler. We can provide an authentic Mexican experience at your stay in Guadalajara, Mexico. Find out more about what makes us special">
   <meta name="keywords" content=" mexico, jalisco, guadalajara, tequila, hostel, travel, tourism, passport, tours of, authentic mexican, airbnb, hostelworld, su casa, youth hostel, travel guide, destination, book, reservation, journey, traveler, cultural vacation">
   <meta name="author" content="Kyle Calica">
@@ -61,7 +61,13 @@
       </aside>
     </main>
     <footer>
-      <span><p>Footer</p></span>
+        <ul class="footer-icons">
+          <li class="reserve-now-btn"><a href="#"><img class="reserve-btn" src="{{ url_for('static',filename='icons/hostelworld.svg') }}" alt="hostelworld-icon" /></a></li>
+          <li class="reserve-now-btn"><a href="#"><img class="reserve-btn" src="{{ url_for('static',filename='icons/airbnb.svg') }}" alt="airbnb-icon"/></a></li>
+          <li><img class="social-media-icon" src="{{ url_for('static',filename='icons/facebook.png') }}" alt="facebook-icon"/></li>
+          <li><img class="social-media-icon" src="{{ url_for('static',filename='icons/instagram.png') }}" alt="instagram-icon"/></li>
+          <li><img class="social-media-icon" src="{{ url_for('static',filename='icons/yelp.png') }}" alt="yelp-icon"/></li>
+        </ul>
     </footer>
   </body>
 </html>
