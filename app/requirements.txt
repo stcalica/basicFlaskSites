@@ -1,7 +1,13 @@
 Click==7.0
 Flask==1.0.2
+Flask-Minify==0.9
 gunicorn==19.9.0
+htmlmin==0.1.12
 itsdangerous==0.24
 Jinja2==2.10
+jsmin==2.2.2
+lesscpy==0.13.0
 MarkupSafe==1.0
+ply==3.11
+six==1.11.0
 Werkzeug==0.14.1
